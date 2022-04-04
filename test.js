@@ -2,4 +2,5 @@
 	Platform.Load("core","1");
 	Write("james");
 Write("kjlajdksadlksa");
+Write("akjslASIQWJDMIWJDIQJDWQ")
 </script>
