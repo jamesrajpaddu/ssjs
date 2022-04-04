@@ -12,7 +12,7 @@
   return passed;
 }
  var dsd=[{"name":"dd"},{"name":"jj"}]; 
-var checker = Array.filter("dd",dsd);
+var checker = Array.filter(dsd,dsd.name);
   Write(checker);
         
 </script>
