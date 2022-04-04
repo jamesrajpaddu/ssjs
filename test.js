@@ -2,7 +2,7 @@
  Platform.Load("core","1");
  try {
 
- var f=function filter(array, test) {
+ function filter(array, test) {
   let passed = [];
   for (let element of array) {
     if (test(element)) {
@@ -12,7 +12,7 @@
   return passed;
 }
  var dsd=[{"name":"dd"},{"name":"jj"}]; 
-var checker = f(dsd,dsd.name == "dd");
+var checker = f(dsd,jj);
   Write(checker);
         
 </script>
