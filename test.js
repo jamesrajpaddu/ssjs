@@ -2,17 +2,17 @@
  Platform.Load("core","1");
  try {
 
- function filter(array, test) {
+ function filter(array) {
   let passed = [];
-  for (let element of array) {
-    if (test(element)) {
+  for (var element of array) {
+   
       passed.push(element);
     }
-  }
+  
   return passed;
 }
  var dsd=[{"name":"dd"},{"name":"jj"}]; 
-var checker = filter(dsd,"jj");
+var checker = filter(dsd);
   Write(checker);
         
 </script>
