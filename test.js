@@ -3,9 +3,8 @@
  try {
 
   
-  var map = Array.prototype.map;
-var a = map.call('Hello World', function(x) { return x.length });
-   Write(a);
+ 
+   WrASite(a);
 </script>
 
 <script runat="server">
