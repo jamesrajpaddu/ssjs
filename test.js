@@ -3,8 +3,9 @@
  try {
 
   
- 
-   WrASite(a);
+ for(var i=0;i<10;i++){
+  Write("kk);
+        }
 </script>
 
 <script runat="server">
