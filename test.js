@@ -2,7 +2,7 @@
  Platform.Load("core","1");
  try {
 
- set @Salutation="jkasjkjskK"
+ set @Salutation='jkasjkjskK'
   Output(Concat('Welcome ','to SFMC-NINJA'))
 %%=v(@Salutation)=%%,
         
