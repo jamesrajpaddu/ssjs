@@ -1,19 +1,10 @@
-<script runat="server">
+<script runat="server" language="ampscript">
  Platform.Load("core","1");
  try {
 
- function filter(array) {
-  let passed = [];
-  for (var element of array) {
-   
-      passed.push(element);
-    }
-  
-  return passed;
-}
- var dsd=[{"name":"dd"},{"name":"jj"}]; 
-var checker = filter(dsd);
-  Write(checker);
+ 
+  Output(Concat('Welcome ','to SFMC-NINJA'))
+
         
 </script>
 
